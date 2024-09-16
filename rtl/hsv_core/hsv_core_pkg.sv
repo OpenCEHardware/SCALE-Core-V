@@ -273,6 +273,7 @@ package hsv_core_pkg;
     logic             write_flip;
     logic             write_mask;
     logic             is_immediate;
+    logic [4:0]       short_immediate;
     exec_mem_common_t common;
   } ctrlstatus_data_t;
 
